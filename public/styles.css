@@ -1,0 +1,37 @@
+.grid{
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: auto 1fr auto;
+    gap: 5px;
+    height: 90vh;
+    color: #FFF0F5;
+}
+.section{
+    font-size: 2em;
+    font-weight: 800;
+}
+header, aside, article, footer{
+    border-style: solid;
+    border-color: lightpink;
+    font-size: 1em;
+}
+aside{
+    background-color: plum;
+}
+article{
+    background-color: lightsalmon;
+}
+header, footer{
+    grid-column: 1 / 4;
+    background-color: mediumpurple;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    font-size: 1em;
+}
+img{
+    height: 32px;
+    width: 32px;
+}
